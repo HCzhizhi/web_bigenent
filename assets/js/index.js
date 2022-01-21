@@ -71,3 +71,8 @@ function renderAvatar(user) {
         $('.text-avatar').html(first).show()
     }
 }
+
+// 解决发布文章后左栏小绿条没有切换的 bug
+function backlist () {
+    $("#backlist").click()
+}
